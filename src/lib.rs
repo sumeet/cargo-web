@@ -327,7 +327,7 @@ struct Build {
     #[structopt(short = "p", long)]
     pub package: Option<String>,
     /// Additional features to build (space-delimited list)
-    #[structopt(long, group = "build_features")]
+    #[structopt(long, group = "build_featurez")]
     pub features: Option<String>,
     /// Build all available features
     #[structopt(long, group = "build_features")]
